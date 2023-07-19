@@ -189,3 +189,55 @@ option {
 .target {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 480px) {
+    body{
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+
+    h1{
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .flex{
+        padding: .7rem;
+    }
+
+    .flex button {
+        padding: .3rem;
+        font-size: .7rem;
+    }
+
+    input{
+        font-size: .7rem;
+    }
+
+    option {
+        font-size: .7rem;
+    }
+
+    .input-label {
+        font-size: 1rem;
+    }
+
+    .t-calories {
+        font-size: 1rem;
+    }
+
+    .recomend {
+        font-size: .8rem;
+    }
+    #calories {
+        font-size: .8rem;
+    }
+
+    .label {
+        font-size: .6rem;
+    }
+}
