@@ -42,7 +42,7 @@ metric.addEventListener('click', () => {
     document.getElementById('weight').placeholder = 'Kilograms';
     metric.style.backgroundColor = 'white';
     metric.style.color = 'rgb(33, 165, 165)';
-    imperial.style.backgroundColor = 'rgb(33, 165, 165)';
+    imperial.style.backgroundColor = '#C60000';
     imperial.style.color = 'white';
     units_x = 'IN';
 
@@ -56,7 +56,7 @@ imperial.addEventListener('click', () => {
     document.getElementById('weight').placeholder = 'Pounds';
     imperial.style.backgroundColor = 'white';
     imperial.style.color = 'rgb(33, 165, 165)';
-    metric.style.backgroundColor = 'rgb(33, 165, 165)';
+    metric.style.backgroundColor = '#C60000';
     metric.style.color = 'white';
     units_x = 'EN';
 })
