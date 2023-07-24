@@ -3,8 +3,13 @@
     padding: 0px;
     margin: 0px;
 }
+
+@font-face {
+    font-family: 'Neuething';
+    src: url('./NeuethingSans-Meduim.woff') format('woff');
+}
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Neuething', sans-serif;
 }
 
 body{
@@ -12,6 +17,7 @@ body{
     box-shadow: 5px 5px 5px rgb(197, 202, 131);
     border-radius: 10px;
     margin: 2rem;
+    /* font-family: 'Neuething'; */
 }
 
 h1{
@@ -78,6 +84,7 @@ input {
 .input-label {
     margin-bottom: 10px;
     font-size: 1.2rem;
+    
 }
 
 select {

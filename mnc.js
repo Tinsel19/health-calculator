@@ -18,7 +18,7 @@ var calculate = document.getElementById('calc');
 
 
 imperial.style.backgroundColor = 'white';
-imperial.style.color = 'rgb(33, 165, 165)';
+imperial.style.color = 'black';
 
 var calories = 0;
 var pweight = 0;
@@ -41,7 +41,7 @@ metric.addEventListener('click', () => {
     inches.placeholder = 'Centimeters';
     document.getElementById('weight').placeholder = 'Kilograms';
     metric.style.backgroundColor = 'white';
-    metric.style.color = 'rgb(33, 165, 165)';
+    metric.style.color = 'black';
     imperial.style.backgroundColor = '#C60000';
     imperial.style.color = 'white';
     units_x = 'IN';
@@ -55,7 +55,7 @@ imperial.addEventListener('click', () => {
     inches.placeholder = 'Inches';
     document.getElementById('weight').placeholder = 'Pounds';
     imperial.style.backgroundColor = 'white';
-    imperial.style.color = 'rgb(33, 165, 165)';
+    imperial.style.color = 'black';
     metric.style.backgroundColor = '#C60000';
     metric.style.color = 'white';
     units_x = 'EN';
